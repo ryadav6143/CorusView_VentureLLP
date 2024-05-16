@@ -1,0 +1,157 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #101802;
+  border-top: 1px solid white;
+  color: white;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.f-email-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.f-email-form {
+  margin-bottom: 20px;
+}
+.f-email-form P {
+  color: rgba(34, 172, 134, 1);
+  font-size: 20px;
+  font-family: "Times New Roman" sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.f-email-form button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  margin-left: -20px;
+}
+.f-email-form input:focus {
+  outline: none;
+}
+.f-email-form button:focus {
+  outline: none;
+}
+.f-email-form input::-webkit-input-placeholder {
+  color: white;
+}
+.f-email-form input::-moz-placeholder {
+  color: white;
+}
+.f-email-form input:-ms-input-placeholder {
+  color: white;
+}
+.f-email-form input::-ms-input-placeholder {
+  color: white;
+}
+.f-email-form input::placeholder {
+  color: white;
+}
+.f-logo img {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 60px;
+}
+.footer-contact-us p {
+  color: rgba(34, 172, 134, 1);
+  font-size: 20px;
+  font-family: "Times New Roman" sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.f-social-logos {
+  display: inline;
+  margin: 5px;
+}
+.f-social-logos img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.d-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #101802;
+  border-top: 1px solid white;
+  color: white;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+}
+#admin-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 5px;
+  width: 100px;
+}
+#admin-btn a {
+  color: white;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .Footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .f-logo img {
+    width: 250px;
+    height: auto;
+  }
+
+  .contact-us {
+    margin-top: 0;
+  }
+
+  #email {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .f-email-form input {
+    width: 150px;
+  }
+  .f-email-form {
+    width: 400px;
+  }
+}

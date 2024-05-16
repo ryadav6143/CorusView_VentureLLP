@@ -1,0 +1,149 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.c-bgimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  max-height: 700px;
+}
+.g-heading {
+  color: white;
+  font-size: 4vw;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.351);
+  border-radius: 10px;
+  text-align: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0px 40px 0px 20px;
+  margin-top: -40%;
+  margin-left: 40%;
+}
+.gallery-heading {
+  position: relative;
+  color: black;
+  font-size: 4vw;
+  background-color: rgba(245, 249, 252, 0.659);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  opacity: 0.8;
+  margin-top: -60%;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding-top: 24%;
+  padding-bottom: 28.8%;
+  padding-left: 10%;
+  padding-right: 12%;
+  font-family: "Times New Roman";
+}
+.gallery-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.g-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.set-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  right: 0;
+}
+.set-li li {
+  list-style-type: none;
+  display: inline;
+  right: 0;
+  padding: 3%;
+  font-size: 15px;
+}
+.g-heading p {
+  font-size: 5vw;
+  margin-left: 5%;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.gallery-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-block: 20px;
+}
+.gallery-img div {
+  padding: 10px;
+}
+.g-imgs img {
+  width: 250x;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .g-heading {
+    margin-top: -65%;
+    margin-left: -18%;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+  }
+  .g-imgs img {
+    width: 250px;
+    height: 300px;
+  }
+  .gallery-img {
+    margin-top: 55%;
+  }
+  .gallery-heading {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .g-heading {
+    margin-top: -38%;
+    margin-left: 36%;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+  }
+  .gallery-img {
+    margin-top: 30%;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+  .g-heading {
+    margin-top: -36%;
+    margin-left: 36%;
+  }
+  .gallery-img {
+    margin-top: 30%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .g-heading {
+    margin-top: -33%;
+    margin-left: 38%;
+  }
+  .gallery-img {
+    margin-top: 30%;
+  }
+  .gallery-heading {
+    display: none;
+  }
+}

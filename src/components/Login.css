@@ -1,0 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.login-from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 200px;
+  padding-top: 300px;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.login-from input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+  width: 250px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.67);
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.803);
+}
+.login-from input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.729);
+}
+.login-from input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.729);
+}
+.login-from input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.729);
+}
+.login-from input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.729);
+}
+.login-from input::placeholder {
+  color: rgba(0, 0, 0, 0.729);
+}
+.login-from input:focus {
+  outline: none;
+}
+.login-from button {
+  background-color: #1877f2;
+  color: white;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-style: italic;
+}
+.login-from button:focus {
+  outline: none;
+  border: none;
+}
+.login-from p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.718);
+}

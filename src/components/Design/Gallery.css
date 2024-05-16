@@ -1,0 +1,53 @@
+.cover-img img {
+  width: 100%;
+  height: 650px;
+}
+.cover-heading {
+  top: 0;
+  position: absolute;
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 700px;
+  width: 25%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.cover-heading p {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1;
+}
+@media screen and (max-width: 768px) {
+  .cover-heading {
+    display: none;
+  }
+  .cover-img img {
+    width: 100%;
+    height: auto;
+  }
+  .cover-heading p {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .cover-heading {
+    display: none;
+  }
+}

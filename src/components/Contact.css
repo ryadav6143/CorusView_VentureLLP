@@ -1,0 +1,163 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.c-bgimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-position: center center;
+  position: relative;
+}
+.c-heading {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 40%;
+  font-size: 5vw;
+  /* margin-left: -14%; */
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: rgba(240, 248, 255, 0.403);
+  border-radius: 10px;
+  text-align: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contact-venture-llp {
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.contact-venture-llp div {
+  padding: 50px;
+}
+#corusview-email {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  font-weight: 500;
+  font-style: italic;
+}
+#corusview-phone {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.contact-venture-llp-heading {
+  font-size: 3vw;
+  color: #88c128;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.social-logos {
+  text-align: center;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+.social-logos p {
+  color: #88c128;
+  font-size: 3vw;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.social-logos img {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  margin: 14px;
+}
+.logos {
+  margin-top: -1.5%;
+}
+.contact-form input::-webkit-input-placeholder {
+  color: black;
+}
+.contact-form input::-moz-placeholder {
+  color: black;
+}
+.contact-form input:-ms-input-placeholder {
+  color: black;
+}
+.contact-form input::-ms-input-placeholder {
+  color: black;
+}
+.contact-form input::placeholder {
+  color: black;
+}
+.contact-form input:focus {
+  outline: none;
+}
+#youtube-logo-contact {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .c-heading {
+    top: 0;
+    left: 0;
+    margin-top: 33%;
+    margin-left: 40%;
+  }
+  .contact-venture-llp-heading {
+    font-size: 30px;
+  }
+  .venture-number {
+    margin-top: -20%;
+  }
+  #corusview-email,
+  #corusview-phone {
+    margin-top: -5%;
+  }
+  .social-logos {
+    margin-top: 5%;
+    margin-bottom: 12%;
+  }
+  .social-logos p {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: -12%;
+  }
+  .logos {
+    margin-top: -4%;
+    margin-left: 4%;
+  }
+  .social-logos img {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+  }
+  #youtube-logo-contact {
+    width: 35px;
+    height: 35px;
+  }
+}

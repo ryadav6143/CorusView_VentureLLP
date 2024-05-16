@@ -1,0 +1,118 @@
+.my-header {
+  position: relative;
+  z-index: 1000;
+}
+
+.medi-logo {
+  width: 200px;
+  height: 60px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.bg-light {
+  background-color: black !important;
+  padding-top: 20px;
+}
+
+.navbar-light {
+  padding-left: 3%;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 15px !important;
+
+  padding: 20px !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 0 !important;
+  margin-top: -0.5rem;
+  margin-left: 2.5rem;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-toggler-icon:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon:focus:active {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+  background-image: url(../images/menu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: white !important;
+}
+
+#userlogo {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    position: relative !important;
+    margin-right: 0px;
+  }
+
+  .medi-logo {
+    width: 165px;
+    height: 45px;
+    margin-left: -13px;
+  }
+
+  .nav-link {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .nav-link {
+    text-align: end;
+    margin-right: 10px;
+  }
+
+  .navbar-nav {
+    position: relative !important;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .nav-link {
+    text-align: right;
+  }
+
+  .navbar-nav {
+    position: relative !important;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  .nav-link {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+  .nav-link {
+    text-align: right;
+  }
+}
